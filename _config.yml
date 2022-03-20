@@ -103,4 +103,7 @@ theme: one-paper
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/SakuraYukari-Nana/blog.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master
+  message: [message]
